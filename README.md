@@ -122,7 +122,7 @@ RUN echo -e "\n > INSTALL CEC-CLIENT-MQTT-BRIDGE\n" \
     \
  && mkdir -p $CECCLIENT_MQTT_BRIDGE_PATH/src \
  && cd $CECCLIENT_MQTT_BRIDGE_PATH \
- && git clone https://github.com/blchinezu/cec-client-mqtt-bridge.git ./src \
+ && git clone https://github.com/marcohald/cec-client-mqtt-bridge.git ./src \
  && ash src/install-build-dependencies.sh \
  && ash src/build.sh \
  \
